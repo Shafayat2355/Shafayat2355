@@ -8,7 +8,6 @@
 <h3 align="center">Full-Stack .NET Developer | WordPress Developer | IsDB-BISEW Scholar</h3>
 
 ---
-
 <!-- ✨ TYPING ANIMATION (Terminal Banner Color Theme) -->
 <p align="center">
   <picture>
@@ -16,6 +15,11 @@
     <source 
       media="(prefers-color-scheme: dark)" 
       srcset="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=680&lines=.NET+Developer;WordPress+Developer;Clean+Architecture+Enthusiast;Problem+Solver;Always+Learning+New+Tech&color=50fa7b&background=00000000" />
+    
+    <!-- Light Mode - Adjusted for better visibility -->
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=680&lines=.NET+Developer;WordPress+Developer;Clean+Architecture+Enthusiast;Problem+Solver;Always+Learning+New+Tech&color=1e88e5&background=00000000" 
+      alt="Typing Animation" />
   </picture>
 </p>
 
