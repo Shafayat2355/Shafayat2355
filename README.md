@@ -14,14 +14,21 @@
     width="100%" />
 </p>
 
----
+---<!-- ✨ ABOUT ME -->
 
-## 👨‍💻 About Me
-- 🎓 IsDB-BISEW Scholar  
-- 💼 Finance & Banking Graduate  
-- 🌱 Full-Stack .NET Development learner  
-- 🌐 WordPress Developer  
-- ⚡ Passionate about clean architecture & scalable systems  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=212842&height=120&text=About%20Me&fontColor=F0E7D5&fontSize=22" />
+</p>
+
+<p align="center">
+
+🎓 IsDB-BISEW Scholar  
+💼 Finance & Banking Graduate  
+🌱 Full-Stack .NET Development learner  
+🌐 WordPress Developer  
+⚡ Passionate about clean architecture & scalable systems  
+
+</p> 
 
 ---
 
