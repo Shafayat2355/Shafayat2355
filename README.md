@@ -10,8 +10,8 @@
 ---
 <!-- ✨ TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=650&lines=.NET+Developer;WordPress+Developer;Clean+Architecture+Enthusiast;Problem+Solver;Always+Learning+New+Tech&font=Inter&color=f28230&background=0A0A0A&multiline=false"
-    width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=700&height=60&lines=🎓+IsDB-BISEW+Scholar;💼+Finance+%26+Banking+Graduate;🌱+Full-Stack+.NET+Learner;🌐+WordPress+Developer;⚡+Clean+Architecture+Enthusiast;🚀+Always+Learning"
+    style="border-radius: 20px;" />
 </p>
 
 ---
