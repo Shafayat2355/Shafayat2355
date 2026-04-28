@@ -17,7 +17,7 @@
 ---<!-- ✨ ABOUT ME -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=212842&height=60&text=About%20Me&fontColor=F0E7D5&fontSize=22" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=212842&height=40&text=About%20Me&fontColor=F0E7D5&fontSize=22" />
 </p>
 
 <p align="center">
