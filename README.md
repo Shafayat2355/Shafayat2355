@@ -60,7 +60,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shafayat2355&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shafayat2355&theme=tokyonight&hide_border=true"width="100%"/>
 </p>
 
 <p align="center">
