@@ -1,6 +1,8 @@
-<!-- 🌌 BANNER -->
+<!-- ====================== TERMINAL STYLE ANIMATED BANNER ====================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:1e3a8a&height=180&section=header&text=Md.%20Shafayat%20Hasan%20Tanha&fontSize=28&fontColor=ffffff" />
+  <img src="https://raw.githubusercontent.com/Shafayat2355/Shafayat2355/main/terminal-banner.svg" 
+       alt="Terminal Style Animated Banner" 
+       width="100%" />
 </p>
 
 <h3 align="center">Full-Stack .NET Developer | WordPress Developer | IsDB-BISEW Scholar</h3>
