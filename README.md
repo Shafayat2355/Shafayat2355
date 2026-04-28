@@ -10,7 +10,7 @@
 ---
 <!-- ✨ TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=650&lines=.NET+Developer;WordPress+Developer;Clean+Architecture+Enthusiast;Problem+Solver;Always+Learning+New+Tech&font=Inter&color=00FFAA&background=0A0A0A&multiline=false"
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=650&lines=.NET+Developer;WordPress+Developer;Clean+Architecture+Enthusiast;Problem+Solver;Always+Learning+New+Tech&font=Inter&color=c47339&background=0A0A0A&multiline=false"
     width="100%" />
 </p>
 
