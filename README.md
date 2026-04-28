@@ -1,6 +1,6 @@
 <!-- ====================== TERMINAL STYLE ANIMATED BANNER ====================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shafayat2355/Shafayat2355/main/terminal-banner.svg" 
+  <img src="https://raw.githubusercontent.com/Shafayat2355/Shafayat2355/main/terminal-banner.svg.svg" 
        alt="Terminal Style Animated Banner" 
        width="100%" />
 </p>
