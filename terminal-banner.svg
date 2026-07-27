@@ -1,0 +1,91 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#013E37"/>
+      <stop offset="100%" stop-color="#212842"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'Cascadia Code','Fira Code',Consolas,monospace; }
+      .prompt { fill: #6FE3B4; }
+      .cmd { fill: #F0E7D5; }
+      .out { fill: #9FD8FF; font-weight: bold; }
+      .comment { fill: #7B8794; }
+      .line { opacity: 0; }
+    </style>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect x="0" y="0" width="900" height="320" rx="16" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="897" height="317" rx="15" fill="none" stroke="#3A4A5C" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="42" rx="16" fill="#161B26"/>
+  <rect x="0" y="26" width="900" height="16" fill="#161B26"/>
+  <circle cx="26" cy="21" r="7" fill="#FF5F56"/>
+  <circle cx="50" cy="21" r="7" fill="#FFBD2E"/>
+  <circle cx="74" cy="21" r="7" fill="#27C93F"/>
+  <text x="450" y="26" text-anchor="middle" class="mono comment" font-size="13">shafayat@portfolio: ~</text>
+
+  <!-- Terminal content -->
+  <g class="mono" font-size="19">
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="80"><tspan class="prompt">shafayat@dev</tspan><tspan class="cmd">:~$ whoami</tspan></text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="112" class="out" font-size="24">Md. Shafayat Hasan Tanha</text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="150"><tspan class="prompt">shafayat@dev</tspan><tspan class="cmd">:~$ cat role.txt</tspan></text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="182" class="out" font-size="18">Full-Stack .NET Developer | WordPress Developer</text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="220"><tspan class="prompt">shafayat@dev</tspan><tspan class="cmd">:~$ echo $EDUCATION</tspan></text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="252" class="out" font-size="18">IsDB-BISEW Scholar &#8226; Finance &amp; Banking Graduate</text>
+    </g>
+
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="286"><tspan class="prompt">shafayat@dev</tspan><tspan class="cmd">:~$ </tspan><tspan class="comment"># Build. Learn. Improve. Repeat.</tspan></text>
+    </g>
+
+    <!-- Blinking cursor -->
+    <rect x="0" y="270" width="12" height="22" fill="#F0E7D5" filter="url(#glow)">
+      <animate attributeName="x" from="0" to="0" begin="5.4s" dur="0.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="5.4s" repeatCount="indefinite"/>
+    </rect>
+    <g class="line">
+      <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.1s" fill="freeze"/>
+      <text x="0" y="286" opacity="0"> </text>
+    </g>
+    <rect x="330" y="270" width="0" height="0" opacity="0"/>
+  </g>
+
+  <!-- reposition cursor correctly after last line -->
+  <rect x="336" y="270" width="12" height="22" fill="#F0E7D5" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1" keyTimes="0;0.55;0.6;0.7;0.8;0.9;0.95;0.975;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
